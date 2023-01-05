@@ -28,7 +28,7 @@ a {
   display: flex;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1920px) {
   nav.container {
     width: 940px;
     display: flex;
@@ -39,7 +39,7 @@ a {
     z-index: 999;
     background-color: aliceblue;
     top: 0;
-    left: 16%;
+    left: 25%;
     z-index: 999999;
   }
   nav.container #navigations {
@@ -105,7 +105,7 @@ a {
     border: 2px solid gray;
   }
 }
-@media (max-width: 1400px) {
+@media (max-width: 1920px) {
   article.container {
     width: 940px;
     justify-content: space-between;
@@ -222,7 +222,7 @@ a {
     background-color: gray;
   }
 }
-@media (max-width: 1400px) {
+@media (max-width: 1920px) {
   section.partners .container {
     width: 940px;
   }
@@ -246,7 +246,7 @@ a {
     width: 19%;
   }
 }
-@media (max-width: 1400px) {
+@media (max-width: 1920px) {
   section#prem .container {
     width: 940px;
     flex-direction: column;
@@ -413,7 +413,7 @@ a {
     bottom: -100px;
   }
 }
-@media (max-width: 1400px) {
+@media (max-width: 1920px) {
   section#search-cards .container {
     width: 940px;
     flex-direction: column;
@@ -563,7 +563,7 @@ a {
     transform: translateY(0);
   }
 }
-@media (max-width: 1400px) {
+@media (max-width: 1920px) {
   section#new .container {
     width: 940px;
     display: flex;
@@ -722,7 +722,7 @@ a {
     bottom: 10px;
   }
 }
-@media (max-width: 1400px) {
+@media (max-width: 1920px) {
   section#best .container {
     width: 940px;
     flex-direction: column;
@@ -889,7 +889,7 @@ a {
     bottom: 10px;
   }
 }
-@media (max-width: 1400px) {
+@media (max-width: 1920px) {
   footer.container {
     width: 100%;
     gap: 70px;
@@ -1006,7 +1006,7 @@ a {
     gap: 7px;
   }
 }
-@media (max-width: 1400px) {
+@media (max-width: 1920px) {
   aside.container {
     width: 100%;
     justify-content: space-between;
