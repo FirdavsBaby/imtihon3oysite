@@ -1,0 +1,79 @@
+@media (max-width: $lg) {
+  nav.container {
+    width: $md - 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    position: fixed;
+    z-index: 999;
+    background-color: aliceblue;
+    top: 0;
+    left: 16%;
+    z-index: 999999;
+    #navigations {
+      width: 55%;
+      display: flex;
+      gap: 20px;
+      a {
+        padding: 10px;
+        &:active {
+          border: 2px solid gray;
+        }
+      }
+    }
+  }
+  aside.dorpdown {
+    display: none;
+  }
+}
+
+@media (max-width: $md) {
+  nav.container {
+    width: $sm - 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 20%;
+    #navigations {
+      width: 85%;
+      display: flex;
+      font-size: 13px;
+      gap: 10px;
+      a {
+        padding: 10px;
+        &:active {
+          border: 2px solid gray;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  nav.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    #navigations {
+      width: 90%;
+      display: flex;
+      font-size: 12px;
+      gap: 10px;
+      a {
+        padding: 10px;
+        &:active {
+          border: 2px solid gray;
+        }
+      }
+    }
+  }
+}
