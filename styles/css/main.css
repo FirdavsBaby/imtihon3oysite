@@ -90,12 +90,12 @@ a {
     padding: 10px 0;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 10%;
   }
   nav.container #navigations {
     width: 90%;
     display: flex;
-    font-size: 12px;
+    font-size: 5px;
     gap: 10px;
   }
   nav.container #navigations a {
